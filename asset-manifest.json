@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/stackfusion_assignment/static/css/main.35b289f2.chunk.css",
+    "main.js": "/stackfusion_assignment/static/js/main.d18e181d.chunk.js",
+    "main.js.map": "/stackfusion_assignment/static/js/main.d18e181d.chunk.js.map",
+    "runtime-main.js": "/stackfusion_assignment/static/js/runtime-main.df081df4.js",
+    "runtime-main.js.map": "/stackfusion_assignment/static/js/runtime-main.df081df4.js.map",
+    "static/css/2.fe359a49.chunk.css": "/stackfusion_assignment/static/css/2.fe359a49.chunk.css",
+    "static/js/2.b10304c5.chunk.js": "/stackfusion_assignment/static/js/2.b10304c5.chunk.js",
+    "static/js/2.b10304c5.chunk.js.map": "/stackfusion_assignment/static/js/2.b10304c5.chunk.js.map",
+    "static/js/3.094487dd.chunk.js": "/stackfusion_assignment/static/js/3.094487dd.chunk.js",
+    "static/js/3.094487dd.chunk.js.map": "/stackfusion_assignment/static/js/3.094487dd.chunk.js.map",
+    "index.html": "/stackfusion_assignment/index.html",
+    "static/css/2.fe359a49.chunk.css.map": "/stackfusion_assignment/static/css/2.fe359a49.chunk.css.map",
+    "static/css/main.35b289f2.chunk.css.map": "/stackfusion_assignment/static/css/main.35b289f2.chunk.css.map",
+    "static/js/2.b10304c5.chunk.js.LICENSE.txt": "/stackfusion_assignment/static/js/2.b10304c5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df081df4.js",
+    "static/css/2.fe359a49.chunk.css",
+    "static/js/2.b10304c5.chunk.js",
+    "static/css/main.35b289f2.chunk.css",
+    "static/js/main.d18e181d.chunk.js"
+  ]
+}
