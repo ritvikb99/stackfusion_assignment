@@ -1,0 +1,26 @@
+p.error {
+  color: red;
+}
+
+p.success {
+  color: white;
+}
+
+p.empty {
+  display: none;
+}
+
+article input:hover {
+  background-color: #263238;
+  color: white;
+}
+
+article input:focus {
+  background-color: #263238;
+  width: 110%;
+  color: white;
+}
+
+article {
+  background-color: white;
+}

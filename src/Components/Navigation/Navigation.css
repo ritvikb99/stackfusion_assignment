@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+h1 {
+  font-family: 'Dela Gothic One', cursive;
+  font-weight: 500;
+  color: white;
+}
+nav {
+  background: #4b5d67;
+  border-color: #4b5d67;
+  display: flex;
+  justify-content: center;
+}
