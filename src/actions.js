@@ -7,7 +7,7 @@ export const setSearchField = (text) => ({
 //requestUsers = (dispatch) => {}          ALT_FOR_BELOW
 export const requestUsers = () => (dispatch) => {
   dispatch({ type: REQUEST_USERS_PENDING });
-  fetch('http://localhost:3001/users')
+  fetch('https://stackfusion-assignment.herokuapp.com/users')
     .then((response) => response.json())
     .then((data) => dispatch({ type: REQUEST_USERS_SUCCESS, payload: data }))
     .catch((error) => dispatch({ type: REQUEST_USERS_FAILED, payload: error }));
