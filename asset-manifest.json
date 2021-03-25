@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stackfusion_assignment/static/css/main.35b289f2.chunk.css",
-    "main.js": "/stackfusion_assignment/static/js/main.aac155f4.chunk.js",
-    "main.js.map": "/stackfusion_assignment/static/js/main.aac155f4.chunk.js.map",
+    "main.js": "/stackfusion_assignment/static/js/main.f0882707.chunk.js",
+    "main.js.map": "/stackfusion_assignment/static/js/main.f0882707.chunk.js.map",
     "runtime-main.js": "/stackfusion_assignment/static/js/runtime-main.df081df4.js",
     "runtime-main.js.map": "/stackfusion_assignment/static/js/runtime-main.df081df4.js.map",
     "static/css/2.fe359a49.chunk.css": "/stackfusion_assignment/static/css/2.fe359a49.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.fe359a49.chunk.css",
     "static/js/2.b10304c5.chunk.js",
     "static/css/main.35b289f2.chunk.css",
-    "static/js/main.aac155f4.chunk.js"
+    "static/js/main.f0882707.chunk.js"
   ]
 }
