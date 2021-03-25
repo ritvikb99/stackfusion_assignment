@@ -34,7 +34,7 @@ const Register = (props) => {
     } else if (!/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(registerEmail)) {
       setDisplayMessage('invalid-email');
     } else {
-      fetch('http://localhost:3001/user-form', {
+      fetch('https://stackfusion-assignment.herokuapp.com/user-form', {
         method: 'post',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({
@@ -134,10 +134,9 @@ const Register = (props) => {
                   className='br3 b pa2 input-reset ba bg-transparent hover-white w-100 resetable'
                   type='date'
                   placeholder='2003-01-01'
-                  min={`${Number(new Date().toISOString().slice(0, 10).split('-')[0]) - 18}-${Number(
+                  max={`${Number(new Date().toISOString().slice(0, 10).split('-')[0]) - 18}-${Number(
                     new Date().toISOString().slice(0, 10).split('-')[1]
                   )}-${Number(new Date().toISOString().slice(0, 10).split('-')[2])}`}
-                  max={new Date().toISOString().slice(0, 10)}
                   name='dob'
                   id='dob'
                   required

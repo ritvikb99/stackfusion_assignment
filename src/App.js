@@ -43,11 +43,7 @@ const App = (props) => {
     }
   };
   let filteredUsers = props.users.filter((user) => {
-    if (props.users === 'no-users-ound') {
-      return 'no-users-ound';
-    } else {
-      return user.name.toLowerCase().includes(props.searchField.toLowerCase());
-    }
+    return user.name.toLowerCase().includes(props.searchField.toLowerCase());
   });
   return (
     <div className='App'>
